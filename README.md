@@ -28,11 +28,11 @@ pip install -r requirements.txt
 ```
 
 ### 3. Using the model 
-## Initial Setup
+#### Initial Setup
 1. Open the Jupyter notebook (`.ipynb` file) in your preferred environment
 2. Run all cells, before the PREDICT INPUT label, in the notebook sequentially to train/load the model
 
-## Making Predictions
+#### Making Predictions
 
 ### Step 1: Prepare Your Input Image
 1. Locate the `digit.png` file in the repository
