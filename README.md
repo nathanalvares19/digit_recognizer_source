@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Making Predictions
 
-# Step 1: Prepare Your Input Image
+### Step 1: Prepare Your Input Image
 1. Locate the `digit.png` file in the repository
 2. Open `digit.png` in any image editing software (Paint, GIMP, Photoshop, etc.)
 3. Draw your digit on the image following these guidelines:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
    - Draw the digit in **black**
    - Make sure the digit is clearly visible and well-formed
 
-# Step 2: Save and Predict
+### Step 2: Save and Predict
 1. Save the modified `digit.png` file
 2. In the Jupyter notebook, find the cell labeled **"Predict"**
 3. Run the "Predict" cell to get the model's prediction for your drawn digit
@@ -59,3 +59,11 @@ pip install -r requirements.txt
 - Verify that all notebook cells have been executed before running predictions
 
 
+## ⚠️ Disclaimer
+This digit recognition model is for educational and demonstration purposes. **The model is not 100% accurate** and may produce incorrect predictions, especially for:
+- Poorly drawn or unclear digits
+- Unusual handwriting styles
+- Digits that are rotated, skewed, or off-center
+- Images with poor contrast or resolution
+
+Results should be interpreted as approximations and not relied upon for critical applications.
